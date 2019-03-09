@@ -1,0 +1,642 @@
+[
+    {
+        "latitude": 39.42703038057047,
+        "longitude": -2.418160750578398,
+        "type": "arado",
+        "id": 1,
+        "price": 51.96548949779538,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": true,
+            "J": false,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.42701780120983,
+        "longitude": -2.4577171972685803,
+        "type": "pivot",
+        "id": 2,
+        "price": 198.76760255546594,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.397410909356886,
+        "longitude": -2.4473470307111276,
+        "type": "remolque",
+        "id": 3,
+        "price": 65.74823622013895,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.37757995900628,
+        "longitude": -2.4249434034083,
+        "type": "tractor",
+        "id": 4,
+        "price": 40.363228461928614,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.414106988602754,
+        "longitude": -2.449535033190031,
+        "type": "tractor",
+        "id": 5,
+        "price": 181.1375499119531,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.386946162187584,
+        "longitude": -2.458557194774329,
+        "type": "remolque",
+        "id": 6,
+        "price": 55.87961843143745,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.381872797303814,
+        "longitude": -2.4210157602442792,
+        "type": "pivot",
+        "id": 7,
+        "price": 31.346024818229054,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": false,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.43245214023115,
+        "longitude": -2.4245143106795477,
+        "type": "remolque",
+        "id": 8,
+        "price": 44.80468648127982,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.43225009094265,
+        "longitude": -2.4089670472126334,
+        "type": "tractor",
+        "id": 9,
+        "price": 156.78806585701355,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.416479097216595,
+        "longitude": -2.402183833428947,
+        "type": "tractor",
+        "id": 10,
+        "price": 167.16463814280158,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": true,
+            "J": false,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.37707813798045,
+        "longitude": -2.4145016764260228,
+        "type": "tractor",
+        "id": 11,
+        "price": 66.55613371329233,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.37535126306887,
+        "longitude": -2.457707331306815,
+        "type": "arado",
+        "id": 12,
+        "price": 102.62604282295733,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.40432990698182,
+        "longitude": -2.451228152923981,
+        "type": "remolque",
+        "id": 13,
+        "price": 174.97630287116039,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.384544110263334,
+        "longitude": -2.445752339085753,
+        "type": "remolque",
+        "id": 14,
+        "price": 25.07495068762016,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.37288648705559,
+        "longitude": -2.448022258727035,
+        "type": "remolque",
+        "id": 15,
+        "price": 81.01364216548093,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": true,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.41006640167288,
+        "longitude": -2.450705546945487,
+        "type": "tractor",
+        "id": 16,
+        "price": 0.9708378854759587,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.396446149964454,
+        "longitude": -2.40912068958964,
+        "type": "pivot",
+        "id": 17,
+        "price": 162.03867509867732,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.414746255335686,
+        "longitude": -2.427579976949161,
+        "type": "remolque",
+        "id": 18,
+        "price": 142.9660558931815,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.372838179488994,
+        "longitude": -2.400263451979561,
+        "type": "arado",
+        "id": 19,
+        "price": 149.9422061547151,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.42354369867861,
+        "longitude": -2.4119607231887468,
+        "type": "pivot",
+        "id": 20,
+        "price": 9.976151302549923,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": true,
+            "J": true,
+            "V": false,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.40644107839179,
+        "longitude": -2.4356926363210833,
+        "type": "tractor",
+        "id": 21,
+        "price": 160.13537314373644,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.38650300167682,
+        "longitude": -2.4472736745404604,
+        "type": "pivot",
+        "id": 22,
+        "price": 198.04742766561253,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.43134791336396,
+        "longitude": -2.4144188034490335,
+        "type": "remolque",
+        "id": 23,
+        "price": 4.0363531716895835,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.41639385554326,
+        "longitude": -2.4509523951092875,
+        "type": "remolque",
+        "id": 24,
+        "price": 69.98214204661706,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.428108556473596,
+        "longitude": -2.4005867885449503,
+        "type": "remolque",
+        "id": 25,
+        "price": 101.18240655821089,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": true,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.37768362926714,
+        "longitude": -2.429734594020906,
+        "type": "remolque",
+        "id": 26,
+        "price": 147.77923245079,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.39390358071733,
+        "longitude": -2.4050487098764317,
+        "type": "arado",
+        "id": 27,
+        "price": 127.81994304924828,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.3800858639819,
+        "longitude": -2.4432470662138415,
+        "type": "tractor",
+        "id": 28,
+        "price": 105.81414280753914,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.42145427534007,
+        "longitude": -2.4215222199100905,
+        "type": "arado",
+        "id": 29,
+        "price": 25.767183713147773,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.419486344263156,
+        "longitude": -2.438953801036857,
+        "type": "arado",
+        "id": 30,
+        "price": 199.3316214958769,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.380634236052856,
+        "longitude": -2.3993950291280637,
+        "type": "pivot",
+        "id": 31,
+        "price": 7.890247559579009,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.41707370284209,
+        "longitude": -2.4536198336584545,
+        "type": "arado",
+        "id": 32,
+        "price": 164.21854601038294,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": true,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.40002757959335,
+        "longitude": -2.4182069171567586,
+        "type": "pivot",
+        "id": 33,
+        "price": 166.73003606986498,
+        "availability": {
+            "L": false,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.396751438765556,
+        "longitude": -2.455254127662789,
+        "type": "remolque",
+        "id": 34,
+        "price": 127.27976223037874,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": true,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.38507805800012,
+        "longitude": -2.441009827974894,
+        "type": "arado",
+        "id": 35,
+        "price": 101.32405800955799,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": true,
+            "J": false,
+            "V": false,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.38738059810301,
+        "longitude": -2.4105878932042275,
+        "type": "arado",
+        "id": 36,
+        "price": 112.10464175350184,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": false,
+            "J": false,
+            "V": false,
+            "S": false,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.39535368183703,
+        "longitude": -2.442227757557452,
+        "type": "arado",
+        "id": 37,
+        "price": 102.06845263593239,
+        "availability": {
+            "L": false,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": true,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.424574155960805,
+        "longitude": -2.406767081346727,
+        "type": "tractor",
+        "id": 38,
+        "price": 106.64233444931904,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": true,
+            "J": true,
+            "V": false,
+            "S": false,
+            "D": false
+        }
+    },
+    {
+        "latitude": 39.42878719394471,
+        "longitude": -2.456730385166328,
+        "type": "arado",
+        "id": 39,
+        "price": 166.30309249981997,
+        "availability": {
+            "L": true,
+            "M": true,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    },
+    {
+        "latitude": 39.41766827927134,
+        "longitude": -2.4414372132652478,
+        "type": "arado",
+        "id": 40,
+        "price": 192.62019734868173,
+        "availability": {
+            "L": true,
+            "M": false,
+            "X": false,
+            "J": false,
+            "V": true,
+            "S": true,
+            "D": true
+        }
+    }
+]
