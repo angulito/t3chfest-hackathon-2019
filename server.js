@@ -99,25 +99,20 @@ if (appEnv.services['cloudantNoSQLDB'] || appEnv.getService(/cloudant/)) {
 if(cloudant) {
   //database name
   var dbName = "grow-and-harvest-db";
-  console.log("cloudant!")
 
   // Create a new "mydb" database.
   cloudant.db.create(dbName, function(err, data) {
     if(!err) { //err if database doesn't already exists
       console.log("Created database: " + dbName);
-  } else {
-    console.log(err)
-  }
+    }
   });
 
   // Specify the database we are going to use (mydb)...
   mydb = cloudant.db.use(dbName);
-  console.log("database")
-  // console.log(mydb)
 }
 
 //serve static file (index.html, images, css)
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/build'));
 
 
 
