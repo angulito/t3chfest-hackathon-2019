@@ -1,6 +1,5 @@
 
-# Grow and Harvest Hackathon T3chfest app
-Deployed to IBM cloud using:
-**IBM Cloud Cloud Foundry**: [Getting started tutorial for Node.js](https://console.bluemix.net/docs/runtimes/nodejs/getting-started.html).
+# Hackathon T3chfest 2019 - Grow and Harvest app
+Deployed to IBM cloud using: **IBM Cloud Cloud Foundry**
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/angulito/t3chfest-hackathon-2019.git)
+URL: https://growandharvest-balanced-fox.eu-gb.mybluemix.net/
