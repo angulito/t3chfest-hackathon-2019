@@ -10,7 +10,7 @@ const styles = theme => ({
   search: {
     height: "30vh",
     width: "100%",
-    marginTop: "5%",
+    marginTop: "2px",
     flexWrap: "wrap"
   },
   input: {

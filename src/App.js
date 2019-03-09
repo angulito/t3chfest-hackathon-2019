@@ -39,7 +39,7 @@ class App extends Component {
               justify="flex-start"
               alignItems="flex-start"
             >
-              <Grid item xs={12} style={{ minWidth: "100%", height: "33vh" }}>
+              <Grid item xs={12} style={{ minWidth: "100%", height: "32vh" }}>
                 <Search />
               </Grid>
               <Grid item xs={12} style={{ minWidth: "100%" }}>

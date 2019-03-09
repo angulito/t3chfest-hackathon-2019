@@ -6,7 +6,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   availability: {
-    height: "40vh",
+    height: "38vh",
     width: "100%"
   },
   paper: {
