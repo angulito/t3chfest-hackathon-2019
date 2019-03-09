@@ -8,7 +8,8 @@ body {
 }
 
 .leaflet-container {
-  height: 86vh;
+  flex-grow: 1;
+  min-height: 88vh;
   width: 100%;
 }
 
