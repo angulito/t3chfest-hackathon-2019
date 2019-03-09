@@ -1,6 +1,19 @@
 import React, { Component } from "react";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
 
+import {
+  aradoIcon,
+  tractorIcon,
+  pivotIcon,
+  remolqueIcon
+} from "../custom-icons";
+
+const icons = {
+  arado: aradoIcon,
+  tractor: tractorIcon,
+  pivot: pivotIcon,
+  remolque: remolqueIcon
+};
 class MapContainer extends Component {
   render() {
     const { locations, onSelect } = this.props;
@@ -14,13 +27,13 @@ class MapContainer extends Component {
           {locations.map(loc => (
             <Marker
               position={[loc.latitude, loc.longitude]}
-              className="map__reactleaflet"
+              icon={icons[loc.type]}
               key={loc.id}
               onClick={() => onSelect(loc)}
             >
-              <Popup>
+              {/* <Popup>
                 <span>{loc.type}</span>
-              </Popup>
+              </Popup> */}
             </Marker>
           ))}
         </Map>
