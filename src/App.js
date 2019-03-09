@@ -15,26 +15,9 @@ const styles = theme => ({
 class App extends Component {
   state = { data: [] };
   componentDidMount() {
-    api.call("https://swapi.co/api/people/1").then(r => {
+    api.call("/api/rent-items").then(r => {
       this.setState({
-        data: [
-          {
-            latitude: 39.42703038057047,
-            longitude: -2.418160750578398,
-            type: "arado",
-            id: 1,
-            price: 51.96548949779538,
-            availability: {
-              L: true,
-              M: true,
-              X: true,
-              J: false,
-              V: true,
-              S: false,
-              D: true
-            }
-          }
-        ]
+        data: r
       });
     });
   }
