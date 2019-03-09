@@ -4,19 +4,20 @@
   "private": true,
   "main": "server.js",
   "dependencies": {
+    "@cloudant/cloudant": "^3.0.2",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x",
+    "ibm-cos-sdk": "^1.4.4",
     "leaflet": "^1.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-leaflet": "^2.2.1",
-    "react-scripts": "2.1.8",
-    "@cloudant/cloudant": "^3.0.2",
-    "body-parser": "^1.17.x",
-    "cfenv": "^1.0.x",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.x",
-    "ibm-cos-sdk": "^1.4.4"
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "node server.js",
