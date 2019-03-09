@@ -1,23 +1,41 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 
 import "./App.css";
 import api from "./api";
 import ResourceInfo from "./components/resource-info";
 import Search from "./components/search";
-import Map from "./components/map";
+import MapContainer from "./components/map-container";
 
 const styles = theme => ({
   app: { textAlign: "center", minHeight: "100vh", flexGrow: 1, display: "flex" }
 });
 
 class App extends Component {
-  state = { name: "" };
+  state = { data: [] };
   componentDidMount() {
     api.call("https://swapi.co/api/people/1").then(r => {
-      this.setState(r);
+      this.setState({
+        data: [
+          {
+            latitude: 39.42703038057047,
+            longitude: -2.418160750578398,
+            type: "arado",
+            id: 1,
+            price: 51.96548949779538,
+            availability: {
+              L: true,
+              M: true,
+              X: true,
+              J: false,
+              V: true,
+              S: false,
+              D: true
+            }
+          }
+        ]
+      });
     });
   }
   render() {
@@ -29,6 +47,7 @@ class App extends Component {
           direction="row"
           justify="flex-start"
           alignItems="flex-start"
+          spacing={8}
         >
           <Grid item xs>
             <Grid
@@ -41,12 +60,12 @@ class App extends Component {
                 <Search />
               </Grid>
               <Grid item xs={12} style={{ minWidth: "100%" }}>
-                <ResourceInfo info={{ name: "nombre" }} />
+                <ResourceInfo info={this.state.data[0]} />
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={9}>
-            <Map />
+            <MapContainer locations={this.state.data} />
           </Grid>
         </Grid>
       </div>
