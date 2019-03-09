@@ -8,7 +8,7 @@ import Availability from "./availability";
 
 const styles = theme => ({
   resource: {
-    height: "40vh",
+    height: "60vh",
     width: "100%"
   },
   media: {
@@ -23,7 +23,7 @@ class ResourceInfo extends Component {
       <Card className={classes.resource}>
         <CardMedia
           className={classes.media}
-          image="https://s3-eu-west-1.amazonaws.com/topmaquinaria-static/aimages/7f8/1d8/57a/8b2/55f/ac4/9934/standard/fe237e1c-a60e-4a92-afc7-dcf3333d106a.jpg?1514597246"
+          image={require("../assets/images" + info.type + ".jpg")}
           title="Tractor"
         />
         <CardContent>
