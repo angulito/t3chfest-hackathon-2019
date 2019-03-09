@@ -19,6 +19,7 @@ import MapContainer from "./components/map-container";
 const styles = theme => ({
   app: {
     textAlign: "center",
+    minHeight: "88vh",
     flexGrow: 1,
     display: "flex"
   },
