@@ -12,7 +12,7 @@ const styles = theme => ({
     width: "100%"
   },
   media: {
-    height: 100
+    height: 200
   }
 });
 
@@ -23,7 +23,7 @@ class ResourceInfo extends Component {
       <Card className={classes.resource}>
         <CardMedia
           className={classes.media}
-          image={require("../assets/images" + info.type + ".jpg")}
+          image={require("../assets/images/" + info.type + ".jpg")}
           title="Tractor"
         />
         <CardContent>
