@@ -13,7 +13,7 @@ const styles = theme => ({
 });
 
 class App extends Component {
-  state = { data: [] };
+  state = { data: [], currentOption: null };
   componentDidMount() {
     api.call("/api/rent-items").then(r => {
       this.setState({
@@ -43,12 +43,15 @@ class App extends Component {
                 <Search />
               </Grid>
               <Grid item xs={12} style={{ minWidth: "100%" }}>
-                <ResourceInfo info={this.state.data[0]} />
+                <ResourceInfo info={this.state.currentOption} />
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={9}>
-            <MapContainer locations={this.state.data} />
+            <MapContainer
+              locations={this.state.data}
+              onSelect={loc => this.setState({ currentOption: loc })}
+            />
           </Grid>
         </Grid>
       </div>
