@@ -31,7 +31,6 @@ class Availability extends Component {
     const days = Object.keys(availability);
     return (
       <>
-        <Typography component="p">Availability</Typography>
         <Grid
           container
           className={classes.availability}
