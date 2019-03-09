@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
+import { withStyles } from "@material-ui/core/styles";
 
 import {
   aradoIcon,
@@ -7,6 +8,13 @@ import {
   pivotIcon,
   remolqueIcon
 } from "../custom-icons";
+
+const styles = {
+  mapContainer: {
+    height: "100%",
+    margin: "4px"
+  }
+};
 
 const icons = {
   arado: aradoIcon,
@@ -16,9 +24,9 @@ const icons = {
 };
 class MapContainer extends Component {
   render() {
-    const { locations, onSelect } = this.props;
+    const { locations, onSelect, classes } = this.props;
     return locations.length ? (
-      <div style={{ height: "100vh" }}>
+      <div className={classes.mapContainer}>
         <Map
           center={[locations[0].latitude, locations[0].longitude]}
           zoom={15}
@@ -50,4 +58,4 @@ class MapContainer extends Component {
   }
 }
 
-export default MapContainer;
+export default withStyles(styles)(MapContainer);

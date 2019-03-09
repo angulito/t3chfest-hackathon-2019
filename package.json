@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "dotenv": "^4.0.0",
     "express": "^4.15.x",
+    "fg-loadcss": "^2.1.0",
     "ibm-cos-sdk": "^1.4.4",
     "leaflet": "^1.4.0",
     "react": "^16.8.4",
