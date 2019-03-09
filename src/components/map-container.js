@@ -21,7 +21,7 @@ class MapContainer extends Component {
       <div style={{ height: "100vh" }}>
         <Map
           center={[locations[0].latitude, locations[0].longitude]}
-          zoom={12}
+          zoom={15}
           mouseDrag={"none"}
           mouseWheel={"none"}
           scrollWheelZoom={false}

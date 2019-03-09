@@ -8,11 +8,18 @@ import Availability from "./availability";
 
 const styles = theme => ({
   resource: {
-    height: "60vh",
+    height: "68vh",
     width: "100%"
   },
   media: {
-    height: 200
+    height: 180
+  },
+  title: {
+    textTransform: "capitalize"
+  },
+  price: {
+    fontSize: 17,
+    fontWeight: 500
   }
 });
 
@@ -24,15 +31,24 @@ class ResourceInfo extends Component {
         <CardMedia
           className={classes.media}
           image={require("../assets/images/" + info.type + ".jpg")}
-          title="Tractor"
+          title={info.type}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography
+            className={classes.title}
+            gutterBottom
+            variant="h5"
+            component="h2"
+          >
             {info.type}
           </Typography>
-          <Typography component="p">
+          <Typography component="p">{info.description}</Typography>
+          <hr />
+          <br />
+          <Typography component="p" className={classes.price}>
             Price: {info.price.toFixed(2)} €
           </Typography>
+          <br />
           <Availability availability={info.availability} />
         </CardContent>
       </Card>
