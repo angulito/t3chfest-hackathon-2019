@@ -3,7 +3,7 @@ import { Map, Marker, Popup, TileLayer } from "react-leaflet";
 
 class MapContainer extends Component {
   render() {
-    const locations = this.props.locations;
+    const { locations, onSelect } = this.props;
     return locations.length ? (
       <div style={{ height: "100vh" }}>
         <Map center={[locations[0].latitude, locations[0].longitude]} zoom={12}>
@@ -16,6 +16,7 @@ class MapContainer extends Component {
               position={[loc.latitude, loc.longitude]}
               className="map__reactleaflet"
               key={loc.id}
+              onClick={() => onSelect(loc)}
             >
               <Popup>
                 <span>{loc.type}</span>
