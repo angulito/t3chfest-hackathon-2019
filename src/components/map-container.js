@@ -19,7 +19,13 @@ class MapContainer extends Component {
     const { locations, onSelect } = this.props;
     return locations.length ? (
       <div style={{ height: "100vh" }}>
-        <Map center={[locations[0].latitude, locations[0].longitude]} zoom={12}>
+        <Map
+          center={[locations[0].latitude, locations[0].longitude]}
+          zoom={12}
+          mouseDrag={"none"}
+          mouseWheel={"none"}
+          scrollWheelZoom={false}
+        >
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"

@@ -32,7 +32,7 @@ class App extends Component {
           alignItems="flex-start"
           spacing={8}
         >
-          <Grid item xs>
+          <Grid item xs={12} sm={3}>
             <Grid
               container
               direction="column"
@@ -47,7 +47,7 @@ class App extends Component {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={12} sm={9}>
             <MapContainer
               locations={this.state.data}
               onSelect={loc => this.setState({ currentOption: loc })}
