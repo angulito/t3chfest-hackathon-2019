@@ -18,24 +18,34 @@
     var lat            = 39.42703;
     var lon            = -2.418160;
     var zoom           = 18;
-
+    //need to transform lat lon coordinates to OSM format
     var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
     var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
     var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
     var position2      = new OpenLayers.LonLat(-2.417, lat).transform( fromProjection, toProjection);
 
+    //create map layer
     map = new OpenLayers.Map("basicMap");
     var mapnik         = new OpenLayers.Layer.OSM();
     map.addLayer(mapnik);
 
+    //create marker layer
     var markers = new OpenLayers.Layer.Markers( "Markers" );
-    var icon = new OpenLayers.Icon('icons/tractor.png');
     map.addLayer(markers);
-    markers.addMarker(new OpenLayers.Marker(position));
+
+    //add marker with onclick function
+    marker = new OpenLayers.Marker(position)
+    marker.events.register("click", marker, function() {
+  		console.log("abc");
+	});
+    markers.addMarker(marker);
+
+   	//add marker with custom icon and size
+   	var icon = new OpenLayers.Icon('icons/arado2.png', {'w': 60, 'h': 27});
     markers.addMarker(new OpenLayers.Marker(position2, icon));
 
+    //set map coordinates
     map.setCenter(position, zoom);
-
 </script>
 </body>
 </html>
