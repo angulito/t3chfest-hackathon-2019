@@ -5,7 +5,9 @@
 
 ## Grow and Harvest app
 
-This application is a prototype created for the T3chfest Hackathon 2019. The main goal is that farmers can rent agricultural machinery so they can use the most recent and modern machinery without having to buy them, which usually is cheaper.
+This application is a prototype created for the T3chfest Hackathon 2019. 
+
+Farmers often leave their fields uncultivated due to the excessive cost of machines such as tractors and harvesters. Our idea is to connect small farmers with machine owners in an effort to make renting easy, cheap and accessible. This way, they can use the most recent and modern machinery for their fields at a fraction of the purchase cost, increasing production and earnings.
 
 ## Presentation slides
 
@@ -17,5 +19,5 @@ Deployed to IBM cloud using: **IBM Cloud Cloud Foundry**
 
 URL: https://growandharvest-balanced-fox.eu-gb.mybluemix.net/
 
-*Note: As it is deployed using a free account, probably this app will disappear in the short future if it has not enough requests.*
+*Note: As it is deployed using a free account, this app will probably disappear soon if it has not enough requests.*
 
